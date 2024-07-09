@@ -2,7 +2,27 @@
 
 class admin
 {
-    public $Govno = "Hello world PHP!!";
+    public $username, $password;
+    function __construct($username, $password)
+    {
+        $this->username = $username;
+        $this->password = $password;
+    }
+
+    function getPassword()
+    {
+        echo "Password: " . $this->password . "<br>";
+    }
+
+    function getUsername()
+    {
+        echo "Username: " . $this->username . "<br>";
+    }
+
+    function __destruct()
+    {
+
+    }
 
     function print_Hi(): void
     {
