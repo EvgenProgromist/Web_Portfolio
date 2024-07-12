@@ -6,7 +6,7 @@ class admin
     function __construct($username, $password)
     {
         $this->username = $username;
-        $this->password = $password;
+        $this->password = (string) $password;
     }
 
     function getPassword()
@@ -19,7 +19,7 @@ class admin
         echo "Username: " . $this->username . "<br>";
     }
 
-    function __destruct()
+    private function __destruct()
     {
 
     }
@@ -28,6 +28,29 @@ class admin
     {
         echo "Hello world PHP!!";
     }
+}
+
+class Users extends admin
+{
+     $users_array;
+     private $id;
+     static $counter;
+     public function __construct($username, $password)
+     {
+
+         parent::__construct($username, $password);
+         self::$counter++;
+         $this->id = self::$counter;
+         $users_array[$this->id] = array();
+     }
+     public function getId()
+     {
+         return $this->id;
+     }
+     public function counters()
+     {
+         return self::$counter;
+     }
 }
 
 function logic_Operand() : void
