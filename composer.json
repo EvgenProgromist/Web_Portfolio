@@ -1,0 +1,13 @@
+{
+  "require": {
+    "EvBiTek/src/Users_Admin" : ""
+  },
+  "autoload": {
+    "psr-4": {
+      "EvBiTek\\": "/../EvBiTek/src/Users_Admin/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
