@@ -12,7 +12,7 @@ use EvBiTek\Users_Admin\Users;
 <h2>My Projects</h2>
 
 <?php
-echo "idofjlkdfjvkdksd;slkf";
+
 #echo logic_Operand();
 
 #echo logic_Operand2();
