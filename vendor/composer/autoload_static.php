@@ -6,29 +6,22 @@ namespace Composer\Autoload;
 
 class ComposerStaticInite2e41f618d980fe83811116ea6f22efa
 {
-    public static $prefixLengthsPsr4 = array (
-        'E' => 
-        array (
-            'EvBiTek\\' => 8,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'EvBiTek\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/../EvBiTek/src',
-        ),
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/../..' . '/src',
     );
 
     public static $classMap = array (
+        'Admin' => __DIR__ . '/../..' . '/src/Admin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PortfolioController' => __DIR__ . '/../..' . '/src/PortfolioController.php',
+        'PortfolioController_Admin\\PortfolioController_Admin' => __DIR__ . '/../..' . '/src/PortfolioController_Admin/PortfolioController_Admin.php',
+        'Users' => __DIR__ . '/../..' . '/src/Users.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite2e41f618d980fe83811116ea6f22efa::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite2e41f618d980fe83811116ea6f22efa::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInite2e41f618d980fe83811116ea6f22efa::$fallbackDirsPsr4;
             $loader->classMap = ComposerStaticInite2e41f618d980fe83811116ea6f22efa::$classMap;
 
         }, null, ClassLoader::class);

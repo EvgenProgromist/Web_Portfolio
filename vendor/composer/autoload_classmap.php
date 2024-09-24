@@ -6,5 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Admin' => $baseDir . '/src/Admin.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'PortfolioController' => $baseDir . '/src/PortfolioController.php',
+    'PortfolioController_Admin\\PortfolioController_Admin' => $baseDir . '/src/PortfolioController_Admin/PortfolioController_Admin.php',
+    'Users' => $baseDir . '/src/Users.php',
 );

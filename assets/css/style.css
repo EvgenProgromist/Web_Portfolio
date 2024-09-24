@@ -1,0 +1,63 @@
+/* Основные стили для всего сайта */
+body {
+    background-color: #fffbe6; /* Светло-желтый фон */
+    color: #333; /* Цвет текста */
+    font-family: 'Arial', sans-serif; /* Основной шрифт */
+    font-size: 22px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffcc00; /* Яркий желтый цвет заголовков */
+}
+
+/* Стили для ссылок */
+a {
+    color: #ffa500; /* Оранжевый оттенок для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00; /* Яркий желтый при наведении */
+    text-decoration: underline;
+}
+
+/* Стили для навигационной панели */
+.navbar {
+    background-color: #ffc107; /* Золотисто-желтый фон навигации */
+}
+
+.navbar .nav-link {
+    color: #333; /* Цвет текста для ссылок в навигации */
+    font-size: x-large;
+
+}
+
+.navbar .nav-link:hover {
+    color: #ffb000; /* Белый текст при наведении на ссылку */
+}
+
+/* Стили для карточек (если вы используете Bootstrap) */
+.card {
+    background-color: #fff8e1; /* Светло-желтый фон карточки */
+    border: 1px solid #ffd700; /* Желтая граница */
+}
+
+.card-title {
+    color: #ffcc00; /* Цвет заголовка карточки */
+}
+
+.card-text {
+    color: #333; /* Цвет текста карточки */
+}
+
+/* Стили для кнопок */
+.btn-custom {
+    background-color: #ffcc00; /* Яркий желтый цвет кнопки */
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #ffa500; /* Оранжевый цвет при наведении */
+}
