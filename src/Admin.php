@@ -9,12 +9,12 @@ class Admin
         $this->password = (string) $password;
     }
 
-    function getPassword()
+    function getPassword(): void
     {
         echo $this->password . "<br>";
     }
 
-    function getUsername()
+    function getUsername(): void
     {
         echo $this->username . "<br>";
     }
@@ -27,6 +27,11 @@ class Admin
     function print_Hi(): void
     {
         echo "Hello world PHP!!";
+    }
+
+    public static function get_admin()
+    {
+        return new Admin("Evgeniy", "123456");
     }
 }
 

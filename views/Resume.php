@@ -6,7 +6,7 @@
     <title>Резюме Евгения</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style_resume.css">
+    <link rel="stylesheet" href="/Web_Portfolio/assets/css/style_resume.css">
 </head>
 <body>
 <div class="container mt-5 p-4 bg-white shadow rounded">

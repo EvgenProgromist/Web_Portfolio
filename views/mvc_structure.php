@@ -28,6 +28,6 @@ require_once __DIR__ . '/../templates/header.php';
 </div>
 
 <footer class="mt-auto bg-light text-center py-3">
-    <?php require '../templates/footer.php'; ?>
+    <?php require_once __DIR__ . '/../templates/footer.php'; ?>
 </footer>
 </body>

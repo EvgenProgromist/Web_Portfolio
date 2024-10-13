@@ -8,7 +8,12 @@ $baseDir = dirname($vendorDir);
 return array(
     'Admin' => $baseDir . '/src/Admin.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Database' => $baseDir . '/src/Database.php',
+    'IndexController' => $baseDir . '/src/IndexController.php',
     'PortfolioController' => $baseDir . '/src/PortfolioController.php',
-    'PortfolioController_Admin\\PortfolioController_Admin' => $baseDir . '/src/PortfolioController_Admin/PortfolioController_Admin.php',
+    'PortfolioController_Admin' => $baseDir . '/src/PortfolioController_Admin.php',
+    'RoutCollection' => $baseDir . '/src/RoutCollection.php',
+    'RoutMatcher' => $baseDir . '/src/RoutMatcher.php',
+    'Route' => $baseDir . '/src/Route.php',
     'Users' => $baseDir . '/src/Users.php',
 );

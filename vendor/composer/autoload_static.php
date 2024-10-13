@@ -13,8 +13,13 @@ class ComposerStaticInite2e41f618d980fe83811116ea6f22efa
     public static $classMap = array (
         'Admin' => __DIR__ . '/../..' . '/src/Admin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Database' => __DIR__ . '/../..' . '/src/Database.php',
+        'IndexController' => __DIR__ . '/../..' . '/src/IndexController.php',
         'PortfolioController' => __DIR__ . '/../..' . '/src/PortfolioController.php',
-        'PortfolioController_Admin\\PortfolioController_Admin' => __DIR__ . '/../..' . '/src/PortfolioController_Admin/PortfolioController_Admin.php',
+        'PortfolioController_Admin' => __DIR__ . '/../..' . '/src/PortfolioController_Admin.php',
+        'RoutCollection' => __DIR__ . '/../..' . '/src/RoutCollection.php',
+        'RoutMatcher' => __DIR__ . '/../..' . '/src/RoutMatcher.php',
+        'Route' => __DIR__ . '/../..' . '/src/Route.php',
         'Users' => __DIR__ . '/../..' . '/src/Users.php',
     );
 

@@ -1,0 +1,10 @@
+RewriteEngine On
+AddDefaultCharset UTF-8
+
+# Проверка, если файл или директория существует
+#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправление всех запросов на index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
+
