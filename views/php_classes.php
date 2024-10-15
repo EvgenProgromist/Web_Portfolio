@@ -11,7 +11,7 @@ require_once __DIR__ . '/../templates/header.php';
     <div class="row justify-content-center">
         <div class="col-md-8">
 
-            <img src="../assets/images/portfolio_classes_php_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/portfolio_classes_php_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 На изображении показан пример работы с классами в PHP. Здесь я создал класс Admin. Этот класс представляет администратора с методами для вывода его имени и пароля.<br>
                 Конструктор __construct($username, $password) — инициализирует объект класса, принимая имя пользователя и пароль, и сохраняет их в свойства объекта $this->username и $this->password.<br>
@@ -20,7 +20,7 @@ require_once __DIR__ . '/../templates/header.php';
                 Метод print_Hi() — выводит сообщение "Hello world PHP!!" через echo.
             </p>
 
-            <img src="../assets/images/portfolio_classes_php_1.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/portfolio_classes_php_1.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 Это класс Users, который наследовал свойства и методы родительского класса Admin.<br>
                 В отличие от родительского класса, он при каждой инициализации обьекта дает ему Id, которое зависит от количества созданных обьектов этого класса.<br>
@@ -28,13 +28,13 @@ require_once __DIR__ . '/../templates/header.php';
                 В этом классе я также впервые использовал статическую переменную(counter). Она интересна тем, что значение этой переменной сохраняется после ее завершения, поэтому я ее использовал как счетчик.<br>
             </p>
 
-            <img src="../assets/images/portfolio_classes_php_2.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/portfolio_classes_php_2.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 Класс PortfolioController или контроллеры нужны для обработки запросов пользователей, взаимодействуют с моделями и загружают нужные представления.<br>
                 Так как я не реализовал Базу данных, данные пришлось вписывать самостоятельно Этот класс взаимодействует только с пользователями.<br>
             </p>
 
-            <img src="../assets/images/portfolio_classes_php_3.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/portfolio_classes_php_3.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 Класс PortfolioController_Admin является подклассом PortfolioController и нужен для взаимодействия с админом, то есть меня.<br>
             </p>

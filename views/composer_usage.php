@@ -11,7 +11,7 @@ require_once __DIR__ . '/../templates/header.php';
     <div class="row justify-content-center">
         <div class="col-md-8">
 
-            <img src="../assets/images/composer_usage_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/composer_usage_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 В моем проекте Composer служит для управления зависимостями и автозагрузки классов. Composer позволяет автоматически загружать нужные классы из указанных директорий без необходимости вручную прописывать пути к каждому файлу.<br>
                 composer.json — это главный файл Composer, в котором описаны зависимости и параметры автозагрузки.<br>

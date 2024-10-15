@@ -53,15 +53,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
             </div>
         </div>
     </div>
-    <!--<div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title"><?php /*echo "Admin: " */?></h5>
-                <p class="card-text"> <?php /*echo $admin->getUsername(); */?></p>
-                <p class="card-text"> <?php /*echo $admin->print_Hi(); */?></p>
-            </div>
-        </div>
-    </div>-->
 </div>
 
 <footer class="mt-auto bg-light text-center py-3">

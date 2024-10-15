@@ -15,11 +15,11 @@ require_once __DIR__ . '/../templates/header.php';
             <p class="lead text-center">
                 Основная структура проекта:
             </p>
-            <img src="../assets/images/mvc_structure_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/mvc_structure_0.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p>
 
             </p>
-            <img src="../assets/images/mvc_structure_1.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
+            <img src="assets/images/mvc_structure_1.png" class="img-fluid rounded shadow mb-4" alt="Пример работы с классами в PHP">
             <p class="lead text-center">
                 Таким образом, каждый компонент MVC выполняет свою роль, что помогает организовать код и сделать приложение более управляемым. Вы можете расширять эту структуру, добавляя новые контроллеры, модели и представления по мере необходимости.
             </p>

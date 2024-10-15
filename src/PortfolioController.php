@@ -16,8 +16,29 @@ class PortfolioController
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Получение данных из формы
-            $username = $_POST['username'];
+            $username = trim($_POST['username']); // Удаление лишних пробелов
             $password = $_POST['password'];
+
+            // Валидация имени пользователя
+            if (empty($username)) {
+                $error = "Имя пользователя не может быть пустым";
+            } elseif (strlen($username) < 3) {
+                $error = "Имя пользователя должно содержать как минимум 3 символа";
+            }
+
+            // Валидация пароля
+            if (empty($password)) {
+                $error = "Пароль не может быть пустым";
+            } elseif (strlen($password) < 8) {
+                $error = "Пароль должен содержать как минимум 8 символов";
+            }
+
+            // Если есть ошибки, отображаем их пользователю
+            if (isset($error)) {
+                include __DIR__ . '/../views/add_users.php';
+                echo "<p style='color:red;'>{$error}</p>";
+                return;
+            }
 
             // Хеширование пароля (рекомендуется)
             $hashedPassword = password_hash($password, PASSWORD_BCRYPT);

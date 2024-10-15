@@ -1,8 +1,11 @@
 RewriteEngine On
 AddDefaultCharset UTF-8
 
+AddType text/css .css
+
+
 # Проверка, если файл или директория существует
-#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Перенаправление всех запросов на index.php
